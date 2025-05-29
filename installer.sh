@@ -228,7 +228,7 @@ main_menu() {
             2) source "$FUNCTIONS_DIR/install_vanilla.sh"; install_vanilla_server ;;
             3) source "$FUNCTIONS_DIR/install_fabric.sh"; install_fabric_server ;;
             4) source "$FUNCTIONS_DIR/install_forge.sh"; install_forge_server ;;
-            5) source "$FUNCTIONS_DIR/install_purpur.sh"; install_purpur_server ;;
+            5 source "$FUNCTIONS_DIR/install_purpur.sh"; install_purpur_server ;;
             4.1) source "$FUNCTIONS_DIR/install_neoforge.sh"; install_neoforge_server ;;
             6) manage_servers_menu ;;
             7) settings_menu ;;
