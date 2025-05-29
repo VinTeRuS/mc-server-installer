@@ -217,7 +217,7 @@ main_menu() {
         echo "3) ${menu_option_fabric:-Fabric}"
         echo "4) ${menu_option_forge:-Forge}"
         echo "4.1) ${menu_option_neoforge:-NeoForge}
-        echo "5) ${menu_option_purpur:-Purpur}"
+        echo "5 ${menu_option_purpur:-Purpur}"
         echo "--- Управление ---"
         echo "6) ${menu_option_manage_servers:-Управление серверами}"
         echo "7) ${menu_option_settings:-Настройки}"
