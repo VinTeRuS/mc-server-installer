@@ -217,6 +217,7 @@ main_menu() {
         echo "3) ${menu_option_fabric:-Fabric}"
         echo "4) ${menu_option_forge:-Forge}"
         echo "5) ${menu_option_purpur:-Purpur}"
+        echo "8) ${menu_option_neoforge:-NeoForge}"
         echo "--- Управление ---"
         echo "6) ${menu_option_manage_servers:-Управление серверами}"
         echo "7) ${menu_option_settings:-Настройки}"
@@ -228,6 +229,7 @@ main_menu() {
             3) source "$FUNCTIONS_DIR/install_fabric.sh"; install_fabric_server ;;
             4) source "$FUNCTIONS_DIR/install_forge.sh"; install_forge_server ;;
             5) source "$FUNCTIONS_DIR/install_purpur.sh"; install_purpur_server ;;
+            8) source "$FUNCTIONS_DIR/install_neoforge.sh"; install_neoforge_server ;;
             6) manage_servers_menu ;;
             7) settings_menu ;;
             9) display_info "Выход из установщика."; exit 0 ;;
